@@ -24,9 +24,10 @@ def package_data(pkg, roots):
 
 setup(
     name='simplevideo-xblock',
-    version='0.1',
+    version='0.2',
     description='simplevideo XBlock',   # TODO: write a better description.
-    license='UNKNOWN',          # TODO: choose a license: 'AGPL v3' and 'Apache 2.0' are popular.
+    # TODO: choose a license: 'AGPL v3' and 'Apache 2.0' are popular.
+    license='UNKNOWN',
     packages=[
         'simplevideo',
     ],
