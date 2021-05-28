@@ -39,6 +39,11 @@ class SimpleVideoXBlock(XBlock):
         Returns a `Fragment` object specifying the HTML, CSS, and JavaScript
         to display.
         """
+
+        self.href = "https://vimeo.com/46100581"
+        self.maxwidth = 800
+        self.maxheight = 600
+
         provider, embed_code = self.get_embed_code_for_url(self.href)
 
         # Load the HTML fragment from within the package and fill in the template
